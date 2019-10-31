@@ -9,7 +9,7 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Dream Produce',
+  siteName: 'Satomi Kouichi',
   tagline: 'Nuxt.js',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
@@ -40,8 +40,8 @@ export default {
       target: '_blank'
     },
     {
-      name: 'dreamproduce',
-      link: 'https://www.dreamproduce.com',
+      name: 'SatomiKouichi',
+      link: 'https://www.satomi-kouichi.com',
       target: '_blank'
     }
   ],
@@ -65,7 +65,7 @@ export default {
   disqus: {
     on: true,
     loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'dreamproduce' // 'dreamproduce'
+    siteShortName: 'SatomiKouichi' // 'SatomiKouichi'
   },
 
   // Newsletter Subscribe
