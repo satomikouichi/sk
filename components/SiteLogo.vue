@@ -9,12 +9,12 @@
       <img
         v-for="x in frames"
         :key="x"
-        :src="`/logo-frames/dplogo.png`"
+        :src="`/logo-frames/sk-logo.jpg`"
       />
       <img
         v-for="x in frames"
         :key="`${x}-r`"
-        :src="`/logo-frames/dplogo.png`"
+        :src="`/logo-frames/sk-logo.jpg`"
       />
     </div>
   </div>
@@ -47,7 +47,7 @@ export default {
   position: relative;
   height: 50px;
   overflow: hidden;
-  width: 200px;
+  width: 250px;
   .logo-inner {
     position: absolute;
     height: 500px;
