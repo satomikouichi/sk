@@ -1,58 +1,58 @@
 <template>
-  <form>
-    <!-- Name -->
-    <div class="field">
-      <label class="label is-medium">Name</label>
-      <div class="control has-icons-left">
-        <input class="input is-medium" type="email" placeholder="John Smith" />
-        <span class="icon is-small is-left">
-          <font-awesome-icon icon="user" />
-        </span>
-      </div>
-    </div>
-    <!-- Email -->
-    <div class="field">
-      <label class="label is-medium">Email</label>
-      <div class="control has-icons-left">
-        <input
-          class="input is-medium"
-          type="email"
-          placeholder="you@email.com"
-        />
-        <span class="icon is-small is-left">
-          <font-awesome-icon icon="envelope" />
-        </span>
-      </div>
-    </div>
-    <!-- Subject -->
-    <div class="field">
-      <label class="label is-medium">Subject</label>
-      <div class="control has-icons-left">
-        <input
-          class="input is-medium"
-          type="email"
-          placeholder="Brief Summary"
-        />
-        <span class="icon is-small is-left">
-          <font-awesome-icon icon="briefcase" />
-        </span>
-      </div>
-    </div>
-    <!-- Message -->
-    <div class="field">
-      <label class="label is-medium">Message</label>
-      <div class="control">
-        <textarea
-          class="textarea"
-          placeholder="Detailed description of your comment, request, etc"
-          rows="8"
-        ></textarea>
-      </div>
-    </div>
-    <div class="control">
-      <button class="button is-primary">
-        Contact Us
-      </button>
-    </div>
-  </form>
+<section class="section">
+<div class="container">
+<div class="content">
+<h2>
+<font style="vertical-align: inherit;">
+<font style="vertical-align: inherit;">お問い合わせ</font></font>
+</h2>
+<br>
+
+<form name="contact" method="post" action="/contact/thanks/" 
+data-netlify="true" data-netlify-honeypot="bot-field">
+<input type="hidden" name="form-name" value="contact">
+
+<div hidden="">
+<label>
+<font style="vertical-align: inherit;">
+<font style="vertical-align: inherit;">これを記入しないでください：</font></font> 
+<input name="bot-field">
+</label>
+</div>
+
+<div class="field">
+<label class="label" for="name">
+<font style="vertical-align: inherit;">
+<font style="vertical-align: inherit;">あなたの名前</font></font>
+</label>
+<div class="control">
+<input class="input" type="text" name="name" id="name" required="">
+</div>
+</div>
+
+<div class="field">
+<label class="label" for="email"><font style="vertical-align: inherit;">
+<font style="vertical-align: inherit;">E-メール</font></font>
+</label>
+<div class="control">
+<input class="input" type="email" name="email" id="email" required="">
+</div></div>
+
+<div class="field">
+<label class="label" for="message">
+<font style="vertical-align: inherit;">
+<font style="vertical-align: inherit;">メッセージ</font></font>
+</label>
+<div class="control">
+<textarea class="textarea" name="message" id="message" required=""></textarea>
+</div></div>
+
+<div class="field">
+<button class="button is-link" type="submit"><font style="vertical-align: inherit;">
+<font style="vertical-align: inherit;">送信する</font></font>
+</button>
+</div>
+</form>
+</div></div>
+</section>
 </template>

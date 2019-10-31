@@ -9,8 +9,8 @@ import theCMS from '../cms/netlify/cms'
  * General Site configurations
  */
 export default {
-  siteName: 'Awake',
-  tagline: 'A Nuxt.js Theme for Netlify CMS',
+  siteName: 'Dream Produce',
+  tagline: 'Nuxt.js',
   featureImage: '/uploads/home-hero.jpg',
   logo: 'logo-component', // 'logo-component', // or '/logo.svg' for regular image
   googleAnalytics: {
@@ -18,6 +18,14 @@ export default {
     id: process.env.GOOGLE_ANALYTICS_ID
   },
   mainMenu: [
+    {
+      name: 'Home',
+      link: '/',
+    },
+    {
+      name: 'Categories',
+      link: '/categories'
+    },
     {
       name: 'About',
       link: '/about'
@@ -27,24 +35,20 @@ export default {
       link: '/contact'
     },
     {
-      name: 'Categories',
-      link: '/categories'
-    },
-    {
-      name: 'Github Repo',
-      link: 'https://github.com/danielkellyio/awake-template',
+      name: 'Github',
+      link: 'https://github.com/',
       target: '_blank'
     },
     {
-      name: 'Awake+ Premium',
-      link: 'http://awake-premium-lp.danielkelly.io/',
+      name: 'dreamproduce',
+      link: 'https://www.dreamproduce.com',
       target: '_blank'
     }
   ],
   hero: {
     theme: 'dark' // options: mist, light, dark
   },
-
+  
   // Main Layout/Style
   layout: {
     width: 'contained', // Options: contained, full
@@ -61,20 +65,20 @@ export default {
   disqus: {
     on: true,
     loadingStrategy: 'button', // Options: onload, lazy, button
-    siteShortName: 'blog-danielkelly-io' // 'blog-danielkelly-io'
+    siteShortName: 'dreamproduce' // 'dreamproduce'
   },
 
   // Newsletter Subscribe
   newsletter: {
     on: true,
-    heading: 'Subscribe to Our Newsletter',
-    btnText: 'Subscribe',
+    heading: 'ニュースレターを購読する',
+    btnText: '申し込む',
     // Can be the form action on a mail chimp form, a hubspot form,
     // or any other url you want to post the form data to
     mailchimp: {
       on: true,
       formAction:
-        'https://danielkelly.us3.list-manage.com/subscribe/post?u=d3c2e762b66a2353d0bc29bf3&amp;id=2abeaa06e0'
+        'https://gmail.us20.list-manage.com/subscribe/post?u=be6d4510d2c6aa37f81e06e13&amp;id=477e0c22a4'
     },
     custom: {
       on: false,
