@@ -2,8 +2,8 @@
 title: Node.js
 subtitle: Node.js
 category:
-  - Third Party Integrations
-author: DP
+  - AWS
+author: SatomiKouichi
 date: 2019-10-19T03:49:49.295Z
 featureImage: /uploads/nvm-npm-node.js.jpg
 ---
