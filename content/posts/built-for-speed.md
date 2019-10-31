@@ -3,9 +3,9 @@ title: React.js
 subtitle: React.js
 category:
   - AWS
-author: Dreamproduce
+author: SatomiKouichi
 date: 2019-10-19T04:27:56.800Z
-featureImage: /uploads/yarn.jpg
+featureImage: /uploads/gatsbyjs.jpg
 ---
 ITテクノロジーは、ビジネスのためにグローバルに多くのドアを開きました。
 
