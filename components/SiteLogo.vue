@@ -10,11 +10,13 @@
         v-for="x in frames"
         :key="x"
         :src="`/logo-frames/sk-logo.jpg`"
+        :alt="SatomiKouichi"
       />
       <img
         v-for="x in frames"
         :key="`${x}-r`"
         :src="`/logo-frames/sk-logo.jpg`"
+        :alt="SatomiKouichi"
       />
     </div>
   </div>
