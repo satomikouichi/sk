@@ -3,7 +3,7 @@ title: Terraform
 subtitle: Terraform
 category:
   - AWS
-author: DP
+author: SatomiKouichi
 date: 2019-10-19T04:27:56.800Z
 featureImage: /uploads/terraform.jpg
 ---
