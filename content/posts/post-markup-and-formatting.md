@@ -3,7 +3,7 @@ title: Pulumi
 subtitle: Pulumi
 category:
   - AWS
-author: DP
+author: SatomiKouichi
 date: 2019-10-19T03:02:00.000Z
 featureImage: /uploads/pulumi.jpg
 ---
